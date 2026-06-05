@@ -1,44 +1,46 @@
 {
   "name": "Pixelboy",
-  "author": "pwn",
   "description": "A color palette inspired by @_Kennyroo 4k follower wallpaper.",
+  "authors": [
+    {
+      "name": "pwn",
+      "id": "138707258514210817"
+    }
+  ],
   "background": {
     "url": "https://raw.githubusercontent.com/Per1shedDev/stolen-assets/refs/heads/main/IMG_2990.png",
     "alpha": 1,
     "blur": 0
   },
-  "colors": {
-    "KEYBOARD": "#20202A",
-    "BACKGROUND_PRIMARY": "#262631",
-    "BACKGROUND_SECONDARY": "#2D2D39",
-    "BACKGROUND_SECONDARY_ALT": "#1D1D27",
-    "BACKGROUND_TERTIARY": "#20202A",
-    "BACKGROUND_ACCENT": "#171924",
-    "BACKGROUND_FLOATING": "#20202A",
-    "BACKGROUND_MENTIONED": "#F7C285",
-    "BACKGROUND_MOBILE_PRIMARY": "#262631",
-    "BACKGROUND_MOBILE_SECONDARY": "#262631",
-    "BACKGROUND_MODIFIER_HOVER": "#2D2D39",
-    "BACKGROUND_MODIFIER_ACTIVE": "#1D1D27",
-    "BACKGROUND_MODIFIER_SELECTED": "#20202A",
-    "BACKGROUND_NESTED_FLOATING": "#171924",
-    "BACKGROUND_MODIFIER_ACCENT": "#20202A",
-
-    "CHANNELS_DEFAULT": "#534D5F",
-    "CHANNEL_ICON": "#F7C285",
-
-    "TEXTBOX_MARKDOWN_SYNTAX": "#D8E1E9",
-    "TEXT_NORMAL": "#D8E1E9",
-    "TEXT_MUTED": "#D8E1E9",
-
-    "INTERACTIVE_ACTIVE": "#948EAE",
-    "INTERACTIVE_NORMAL": "#948EAE",
-    "INTERACTIVE_MUTED": "#20202A",
-
-    "HEADER_PRIMARY": "#534D5F",
-    "HEADER_SECONDARY": "#534D5F",
-    "TEXT_LINK": "#948EAE",
-
+  "semanticColors": {
+    "KEYBOARD": ["#20202A", "#20202A"],
+    "BACKGROUND_PRIMARY": ["#262631", "#262631"],
+    "BACKGROUND_SECONDARY": ["#2D2D39", "#2D2D39"],
+    "BACKGROUND_SECONDARY_ALT": ["#1D1D27", "#1D1D27"],
+    "BACKGROUND_TERTIARY": ["#20202A", "#20202A"],
+    "BACKGROUND_ACCENT": ["#171924", "#171924"],
+    "BACKGROUND_FLOATING": ["#20202A", "#20202A"],
+    "BACKGROUND_MENTIONED": ["#F7C285", "#F7C285"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#262631", "#262631"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#262631", "#262631"],
+    "BACKGROUND_MODIFIER_HOVER": ["#2D2D39", "#2D2D39"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#1D1D27", "#1D1D27"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#20202A", "#20202A"],
+    "BACKGROUND_NESTED_FLOATING": ["#171924", "#171924"],
+    "BACKGROUND_MODIFIER_ACCENT": ["#20202A", "#20202A"],
+    "CHANNELS_DEFAULT": ["#534D5F", "#534D5F"],
+    "CHANNEL_ICON": ["#F7C285", "#F7C285"],
+    "TEXTBOX_MARKDOWN_SYNTAX": ["#D8E1E9", "#D8E1E9"],
+    "TEXT_NORMAL": ["#D8E1E9", "#D8E1E9"],
+    "TEXT_MUTED": ["#D8E1E9", "#D8E1E9"],
+    "INTERACTIVE_ACTIVE": ["#948EAE", "#948EAE"],
+    "INTERACTIVE_NORMAL": ["#948EAE", "#948EAE"],
+    "INTERACTIVE_MUTED": ["#20202A", "#20202A"],
+    "HEADER_PRIMARY": ["#534D5F", "#534D5F"],
+    "HEADER_SECONDARY": ["#534D5F", "#534D5F"],
+    "TEXT_LINK": ["#948EAE", "#948EAE"]
+  },
+  "rawColors": {
     "PRIMARY_DARK": "#262631",
     "PRIMARY_DARK_100": "#2D2D39",
     "PRIMARY_DARK_200": "#1D1D27",
@@ -51,8 +53,11 @@
     "PRIMARY_DARK_700": "#20202A",
     "PRIMARY_DARK_800": "#20202A",
     "PRIMARY_DARK_900": "#A4634D",
-
     "BRAND_NEW": "#948EAE",
     "CHAT_GREY": "#262631"
-  }
+  },
+  "plus": {
+    "version": "0"
+  },
+  "spec": 2
 }
